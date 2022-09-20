@@ -1,0 +1,14 @@
+ol li {
+    cursor: pointer;
+}
+
+section {
+    float: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
