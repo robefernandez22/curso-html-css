@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete y Require</title>
+</head>
+
+<body>
+
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre:</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autofocus autocomplete="name" required>
+            </label>
+
+            <label for="correo">
+                <span>Correo:</span>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@example.com" autocomplete="email" required>
+            </label>
+
+            <label for="pais">
+                <span>País:</span>
+                <input type="text" id="pais" name="pais" placeholder="Tu país" autocomplete="country" required>
+            </label>
+
+            <label for="cp">
+                <span>Código postal:</span>
+                <input type="number" id="cp" name="cp" placeholder="Tu código postal" autocomplete="postal-code" required>
+            </label>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+</body>
+
+</html>
