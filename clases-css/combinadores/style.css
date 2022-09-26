@@ -1,0 +1,24 @@
+/* Le aplicamos estilos a todas los párrafos que estén cerca de un h2.
+A este combinador se le llama Hermano adyacente o cercano (Adjacent sibling) */
+/* h2 + p {
+    color: red;
+} */
+
+/* Le aplicamos estilos a todos los párrafos que se encuentren 
+bajo el mismo padre que los h2, es decir, que sean hermanos generales. 
+A este combinador se le llama hermano general (general sibling) */
+/* h2 ~ p {
+    color: red;
+} */
+
+/* Le aplicamos estilos a todos los párrafos que sean hijos directos de div.
+A este combinador se le llama hijo (child) */
+/* div > p {
+    color: red;
+} */
+
+/* Le aplicamos estilos a todos los párrafos que se encuentren dentro del div.
+A este combinador se le llama descendiente (descendant) */
+div p {
+    color: red;
+}
