@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* = 10px */
+html {
+    font-size: 62.5%;
+}
+
+/* = 16px teniendo en cuenta el font-size de arriba */
+p {
+    font-size: 1.6rem;
+}
