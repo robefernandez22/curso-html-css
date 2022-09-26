@@ -1,0 +1,9 @@
+/* Se multiplica el valor que se coloque en em por el tamaño de fuente que tenga el padre.
+Si el padre tiene 16px, se hará 16px * 1.5 = 24px */
+.text-container {
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
