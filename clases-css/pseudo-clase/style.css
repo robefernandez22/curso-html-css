@@ -1,0 +1,54 @@
+.main-nav {
+
+    /* Margen superior */
+    margin-top: 10px;
+    /* Le quitamos los puntitos a las listas desordenadas */
+    list-style: none;
+    /* Le quitamos el padding izquierdo para que se pegue a la izquierda */
+    padding-left: 0;
+    /* Le damos color de fondo */
+    background-color: #13a4a4;
+
+}
+
+.main-nav__item {
+
+    /* Ponemos los items en línea uno al lado de otro */
+    display: inline-block;
+
+}
+
+.main-nav__item a {
+
+    /* Le damos un color blanco a los enlaces */
+    color: white;
+    /* Le damos un relleno de 5 píxeles */
+    padding: 5px;
+    /* Le quitamos a los enlaces las líneas de abajo */
+    text-decoration: none;
+
+}
+
+/* Le estableceremos este estilo a los enlaces del menú
+cuando se pase el mouse por encima de ellos */
+.main-nav__item a:hover {
+
+    color: blue;
+
+}
+
+/* Le estableceremos este estilo a los enlaces del menú
+de navegación cuando se haga click sobre ellos */
+.main-nav__item a:active {
+
+    color: red;
+
+}
+
+/* Pseudo elemento. Lo que hará será añadirle algo después del elemento que le indiquemos.
+La traducción sería: después de cada elemento 'a' añade este contenido */
+.main-nav__item a::after {
+
+    content: " | ";
+
+}
