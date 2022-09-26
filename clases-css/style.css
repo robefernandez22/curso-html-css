@@ -1,0 +1,15 @@
+/* selector de elemento */
+p {
+    color: red;
+    font-size: 40px;
+}
+
+/* selector de clase */
+.parrafo {
+    color: yellow;
+}
+
+/* selector de ID */
+#texto {
+    color: red;
+}
