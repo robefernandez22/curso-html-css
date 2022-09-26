@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+main {
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+
+/* Tamaño de fuente en píxeles. Este tamaño será absoluto, 
+no cambiará aunque cambie el tamaño del dispositivo donde se reproduzca la web. */
+/* p {
+    font-size: 18px;
+} */
+
+/* Tamaño de fuente en porcentaje (%), esta es una medida relativa y 
+esto quiere decir que si los párrafos tienen un font-size de 20px tal 
+y como indicamos arriba en el reseteo (*), lo que hará será mostrarse 
+todos los párrafos con un font-size de la mitad (10px) */
+p {
+    font-size: 50%;
+}
