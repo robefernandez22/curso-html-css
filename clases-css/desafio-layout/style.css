@@ -1,0 +1,78 @@
+/* Restablecemos márgenes, relleno y bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ponemos la fuente al 62.5%, esto es igual a 10px para que
+de ahora en adelante usemos la medida rem y sea más fácil la
+multiplicación, por ejemplo, si usamos para los párrafos 1.6 rem
+sabremos que serán 16px */
+html {
+    font-size: 62.5%;
+}
+
+/* Teniendo en cuenta justo lo que explicamos arriba, esto sería
+equivalente a 16 píxeles */
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    height: 10vh;
+    background-color: cadetblue;
+}
+
+figure, nav {
+    display: inline-block;
+}
+
+figure {
+    margin: 1rem;
+}
+
+nav {
+    position: absolute;
+    right: 1.5rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+main {
+    height: 80vh;
+}
+
+aside, section {
+    display: inline-block;
+    height: 80vh;
+}
+
+aside {
+    background-color: chocolate;
+    width: 20vw;
+}
+
+aside div {
+    background-color: crimson;
+    height: 15vh;
+    margin: 4vh;
+}
+
+section {
+    background-color: darkblue;
+    position: absolute;
+    width: 80vw;
+    padding: 1rem;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+}
