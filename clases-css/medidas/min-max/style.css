@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Le ponemos que ocupe el 100% del viewport tanto en altura como anchura */
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;/* Va a tener una anchura como mínimo de 320px, menos no */
+    max-width: 550px;/* Va a tener una anchura máxima de 550px, más no */
+    min-height: 500px;/* Va a tener una altura mínima de 500px, menos no */
+    background-color: red;
+    margin: 0 auto;/* Alineamos section al medio */
+}
