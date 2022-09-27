@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+    margin-top: 25px;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+section#texto-arriba {
+    background-color: red;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 15px;
+}
+
+section#texto-abajo {
+    background-color: aliceblue;
+    width: 300px;
+}
+
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
