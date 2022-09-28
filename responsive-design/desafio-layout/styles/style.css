@@ -1,0 +1,63 @@
+/* Reestablecemos estilos */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Reestablecemos fuente a 10px para facilidad de conversión con rem */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #14151f;
+    font-size: 1.6rem;
+    color: #f51c00;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+img.logo {
+    width: 60px;
+    height: 40px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+main {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#equipos img {
+    width: 100vw;
+}
+
+figure {
+    width: 100%;
+}
+
+.inactive {
+    display: none;
+}
