@@ -1,7 +1,7 @@
-section figure {
+section#pilotos figure {
     width: 50%;
 }
 
 section#equipos img {
-    width: 50vw;
+    width: 330px;
 }

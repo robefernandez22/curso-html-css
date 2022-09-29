@@ -40,22 +40,31 @@ li {
 }
 
 main {
-    margin-top: 3rem;
     text-align: center;
 }
 
 section {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-section#equipos img {
-    width: 100vw;
+section figure {
+    height: 40%;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
-figure {
-    width: 100%;
+section#pilotos img {
+    width: 150px;
+    height: 150px;
+}
+
+section#equipos img {
+    width: 300px;
 }
 
 .inactive {
